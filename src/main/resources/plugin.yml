@@ -1,0 +1,16 @@
+name: GlowBattlePass
+version: 1.0.0
+main: com.agent1k.glowbattlepass.GlowBattlePass
+api-version: '1.16'
+softdepend: [PlaceholderAPI]
+commands:
+  bp:
+    description: Боевой пропуск
+  bpa:
+    aliases: [bpadmin]
+    permission: glowbattlepass.admin
+  bpah:
+    description: Аукцион за валюту боевого пропуска
+permissions:
+  glowbattlepass.admin:
+    default: op

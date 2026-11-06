@@ -1,0 +1,39 @@
+season: 1
+experience-per-tier: 100
+auction:
+  max-listings: 10
+  duration-hours: 72
+  max-price: 1000000000
+quests:
+  daily:
+    miner:
+      type: BREAK
+      material: STONE
+      target: 64
+      experience: 40
+      currency: 15
+    hunter:
+      type: KILL
+      material: ZOMBIE
+      target: 10
+      experience: 50
+      currency: 20
+  weeks:
+    '1':
+      lumberjack:
+        type: BREAK
+        material: OAK_LOG
+        target: 128
+        experience: 100
+        currency: 50
+rewards:
+  '1':
+    currency: 30
+    premium-currency: 30
+  '2':
+    currency: 50
+    premium-currency: 50
+messages:
+  prefix: '&#ffaa00Glow &8» &f'
+  success: '&aГотово.'
+  error: '&c{error}'

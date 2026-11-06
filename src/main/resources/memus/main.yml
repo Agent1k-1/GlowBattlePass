@@ -1,0 +1,46 @@
+title: '&#ffaa00Боевой пропуск'
+size: 27
+items:
+  stats:
+    slot: 4
+    material: PLAYER_HEAD
+    name: '&e{player} &7Уровень: {tier}'
+    lore: ['&7Валюта: &e{balance}']
+    left_click_action: ['[player] bp stats']
+    right_click_action: ['[player] bp balance']
+  daily:
+    slot: 10
+    material: BOOK
+    name: '&eЕжедневные задания'
+    left_click_action: ['[open] daily-quests']
+    right_click_action: ['[message] &7Новые задания каждый день в 00:00 UTC']
+  weekly:
+    slot: 11
+    material: WRITABLE_BOOK
+    name: '&eКвесты недели'
+    left_click_action: ['[player] bp open week 1']
+    right_click_action: ['[message] &7Другие недели: /bp open week <номер>']
+  rewards:
+    slot: 12
+    material: CHEST
+    name: '&eНаграды'
+    left_click_action: ['[open] rewards']
+    right_click_action: ['[player] bp stats']
+  auction:
+    slot: 14
+    material: GOLD_INGOT
+    name: '&eАукцион БП'
+    left_click_action: ['[open] auction']
+    right_click_action: ['[message] &7Продать предмет в руке: /bpah sell <цена>']
+  mail:
+    slot: 15
+    material: ENDER_CHEST
+    name: '&eПочта: забрать предмет'
+    left_click_action: ['[mail]']
+    right_click_action: ['[mail]']
+  close:
+    slot: 26
+    material: BARRIER
+    name: '&cЗакрыть'
+    left_click_action: ['[close]']
+    right_click_action: ['[close]']

@@ -1,0 +1,15 @@
+title: '&#ffcc33Аукцион боевого пропуска'
+size: 54
+items:
+  mail:
+    slot: 49
+    material: ENDER_CHEST
+    name: '&eЗабрать предмет из почты'
+    left_click_action: ['[mail]']
+    right_click_action: ['[mail]']
+  main:
+    slot: 48
+    material: NETHER_STAR
+    name: '&eГлавное меню'
+    left_click_action: ['[open] main']
+    right_click_action: ['[open] main']

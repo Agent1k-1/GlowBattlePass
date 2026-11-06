@@ -1,0 +1,21 @@
+title: '&#ffaa00Редактор заданий'
+size: 54
+items:
+  back:
+    slot: 49
+    material: ARROW
+    name: '&eГлавное меню'
+    left_click_action: ['[open] main']
+    right_click_action: ['[close]']
+  create-daily:
+    slot: 47
+    material: EMERALD
+    name: '&aСоздать ежедневный квест'
+    left_click_action: ['[create] daily']
+    right_click_action: ['[create] daily']
+  create-week:
+    slot: 51
+    material: DIAMOND
+    name: '&aСоздать квест недели 1'
+    left_click_action: ['[create] 1']
+    right_click_action: ['[message] &7Номер недели можно настроить в action этой кнопки']

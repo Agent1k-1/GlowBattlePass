@@ -1,0 +1,9 @@
+title: '&#ffaa00Задания недели'
+size: 54
+items:
+  back:
+    slot: 49
+    material: ARROW
+    name: '&eГлавное меню'
+    left_click_action: ['[open] main']
+    right_click_action: ['[close]']
